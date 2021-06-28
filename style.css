@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+#div{
+   float: left;
+}
+#div1{
+    width: 45%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    height: 48px;
+}
+#div2{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;  
+}
+#search{
+    float: left;
+    outline: none; 
+    border: 1px solid rgb(205, 205, 205);
+    border-right: none;
+    border-radius: 0;
+    padding-left: 5px;
+}
+#btn-search{
+    background-color: #4486F8;
+    color: white;
+    width: 55px;
+    height: 25px;
+    border: none;
+}
+#btn-search:active{
+    background-color: rgb(5, 5, 107);
+}
+#appicon{
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 23px;
+}
+#btn-sign{
+    background-color: #4486F8;
+    padding: 3px;
+    width: 65px;
+    height: 28px;
+    border: none;
+    color: white;
+}
+#google-play-logo{
+    width: 183px;
+    height: 39px;
+    margin: 10px 20px;    
+}
+
+#div-header{
+    display: block;
+    overflow: auto;  
+}
+.navbar{
+    background-color: white;
+    height: 48px;
+    line-height: 48px;
+}
+#navbar-left{
+    float: left;
+    width: 193px;
+    background-color: #039BE5;  
+}
+#navbar-left:hover{
+    cursor: pointer;
+}
+#book{
+    text-decoration: none;
+    color: rgb(255, 255, 255,0.85);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 30px;
+    letter-spacing: 0.7px;
+}
+#book-logo{
+    margin-left: 20px;
+    color: rgb(255, 255, 255,0.85);
+}
+#form{
+    float: left;
+    margin-left: 35px;
+    margin-right: 12px;
+}
+#select{
+    border: none;
+    outline: none;
+    color:rgb(128, 118, 118);
+}
+#select option{
+    color:rgb(128, 118, 118);
+    
+}
+#çizgi-div{
+    height: 100%;
+    float: left;
+}
+#çizgi{
+    margin-top: 10px;
+    height: 60%;
+    border: 1px solid rgb(128, 118, 118,0.5);
+    overflow: auto;
+    width: 15px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+#navbar-left-ul li:hover{
+    background-color: rgba(160, 157, 157, 0.2);
+}
+#navbar-left-ul{
+    list-style: none;
+    margin-left: 250px;
+}
+#navbar-left-ul li{
+    float: left;
+    padding-right: 20px;
+}
+#navbar-left-ul li a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(128, 118, 118);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+}
+#navbar-left-ul li a:hover{
+    color: cadetblue;
+}
+#navbar-son ul{
+    float: right;
+    overflow: auto;
+    list-style: none;
+}
+#navbar-son li{
+   padding-right: 30px;
+   float: left;
+}
+#navbar-son li a{
+    padding: 5px 15px;
+    border: 0.1px solid rgb(128, 118, 118,0.5);
+    border-radius: 5px;
+}
+#navbar-son-ul li a{
+    color: black;
+}
+#navbar-son-ul li a:hover{
+    box-shadow: 1px 2px 2px 2px rgba(130, 129, 129, 0.1);
+}
+#section{
+    width: 193px;
+    top: 48px;
+    box-shadow: 1px 2px 2px 2px rgba(130, 129, 129, 0.1);
+}
+#section-div{
+    width: 100%;
+    height: 144px;
+} 
+#section-div:hover{
+    cursor: pointer;
+}
+#uygulamalar1{
+    background-color: rgb(49, 212, 34);
+    width: 100%;
+    float:right;
+    padding: 15px 20px;
+    height: 48px;
+}
+#section-div a{
+    text-decoration: none; 
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    color: rgb(255, 255, 255,0.85);
+}
+#section-div span{
+    padding-right: 30px;
+}
+#filmler1{
+    width: 100%;
+    content: "";
+    clear: right;
+    display:table;
+    padding: 15px 20px;
+    height: 48px;
+    background-color: rgb(223, 19, 19);
+}
+#eğlence1{
+    width: 100%;
+    padding: 15px 20px;
+    height: 48px;
+    background-color: rgb(112, 109, 109);
+}
+#section-alt-div{
+    margin-top: 5px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+#alertlist {
+    padding-top: 10px;
+    background-color: rgba(238, 238, 238, 1);
+    list-style: none;
+    width: 193px;
+}
+  #alertlist li {
+    color:white;
+    padding: 5px 20px;
+}
+  #alertlist li a{
+      color:rgb(85, 85, 85,0.8);
+      text-decoration: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+}
+  #alertlist li:hover {
+    background-color: rgba(160, 157, 157, 0.2);
+}
+
+
